@@ -105,14 +105,14 @@ function operator(proxies) {
       name: "🇱🇺 LU 硝酸二甲酯 0.01x",
     })
   );
-  proxies.splice(
+  proxies.push(
     Object.assign({}, proxies[0], {
       server: "traffic-in-03.811920.xyz",
       port: 50009,
       name: "🇱🇺 LU 硝酸二甲酯 0.01x 广州移动",
     })
   );
-  proxies.splice(
+  proxies.push(
     Object.assign({}, proxies[0], {
       server: "traffic-in-04.811920.xyz",
       port: 50009,
