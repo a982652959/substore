@@ -40,6 +40,23 @@ function operator(proxies) {
       port: 50013,
       name: "🇭🇰 HK 丁香酰氧胺 0.01x",
     })
+
+  proxies.splice(
+    insertIndex,
+    0,
+    Object.assign({}, proxies[0], {
+      server: "traffic-in-03.811920.xyz",
+      port: 50013,
+      name: "🇭🇰 HK 丁香酰氧胺 0.01x 广州移动",
+    })
+  proxies.splice(
+    insertIndex,
+    0,
+    Object.assign({}, proxies[0], {
+      server: "traffic-in-04.811920.xyz",
+      port: 50013,
+      name: "🇭🇰 HK 丁香酰氧胺 0.01x 江苏移动",
+    })
   );
   // * 重置插入元素位置
   insertIndex = 0;
@@ -60,6 +77,22 @@ function operator(proxies) {
       port: 50012,
       name: "🇸🇬 SG 苯巴比妥钠 0.01x",
     })
+  proxies.splice(
+    insertIndex,
+    0,
+    Object.assign({}, proxies[0], {
+      server: "traffic-in-03.811920.xyz",
+      port: 50012,
+      name: "🇸🇬 SG 苯巴比妥钠 0.01x 广州移动",
+    })
+  proxies.splice(
+    insertIndex,
+    0,
+    Object.assign({}, proxies[0], {
+      server: "traffic-in-04.811920.xyz",
+      port: 50012,
+      name: "🇸🇬 SG 苯巴比妥钠 0.01x 江苏移动",
+    })
   );
 
   proxies.push(
@@ -67,6 +100,22 @@ function operator(proxies) {
       server: "traffic-in-lite.811920.xyz",
       port: 50009,
       name: "🇱🇺 LU 硝酸二甲酯 0.01x",
+    })
+  proxies.splice(
+    insertIndex,
+    0,
+    Object.assign({}, proxies[0], {
+      server: "traffic-in-03.811920.xyz",
+      port: 50009,
+      name: "🇱🇺 LU 硝酸二甲酯 0.01x 广州移动",
+    })
+  proxies.splice(
+    insertIndex,
+    0,
+    Object.assign({}, proxies[0], {
+      server: "traffic-in-04.811920.xyz",
+      port: 50009,
+      name: "🇱🇺 LU 硝酸二甲酯 0.01x 江苏移动",
     })
   );
   return proxies;
