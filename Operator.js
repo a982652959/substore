@@ -97,7 +97,6 @@ function operator(proxies) {
       name: "🇸🇬 SG 苯巴比妥钠 0.01x 江苏移动",
     })
   );
-
   proxies.push(
     Object.assign({}, proxies[0], {
       server: "traffic-in-lite.811920.xyz",
