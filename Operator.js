@@ -40,7 +40,7 @@ function operator(proxies) {
       port: 50013,
       name: "🇭🇰 HK 丁香酰氧胺 0.01x",
     })
-
+  );
   proxies.splice(
     insertIndex,
     0,
@@ -49,6 +49,7 @@ function operator(proxies) {
       port: 50013,
       name: "🇭🇰 HK 丁香酰氧胺 0.01x 广州移动",
     })
+  );
   proxies.splice(
     insertIndex,
     0,
@@ -77,6 +78,7 @@ function operator(proxies) {
       port: 50012,
       name: "🇸🇬 SG 苯巴比妥钠 0.01x",
     })
+  );
   proxies.splice(
     insertIndex,
     0,
@@ -85,6 +87,7 @@ function operator(proxies) {
       port: 50012,
       name: "🇸🇬 SG 苯巴比妥钠 0.01x 广州移动",
     })
+  );
   proxies.splice(
     insertIndex,
     0,
@@ -101,6 +104,7 @@ function operator(proxies) {
       port: 50009,
       name: "🇱🇺 LU 硝酸二甲酯 0.01x",
     })
+  );
   proxies.splice(
     insertIndex,
     0,
@@ -109,6 +113,7 @@ function operator(proxies) {
       port: 50009,
       name: "🇱🇺 LU 硝酸二甲酯 0.01x 广州移动",
     })
+  );
   proxies.splice(
     insertIndex,
     0,
