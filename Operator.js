@@ -106,8 +106,6 @@ function operator(proxies) {
     })
   );
   proxies.splice(
-    insertIndex,
-    0,
     Object.assign({}, proxies[0], {
       server: "traffic-in-03.811920.xyz",
       port: 50009,
@@ -115,8 +113,6 @@ function operator(proxies) {
     })
   );
   proxies.splice(
-    insertIndex,
-    0,
     Object.assign({}, proxies[0], {
       server: "traffic-in-04.811920.xyz",
       port: 50009,
