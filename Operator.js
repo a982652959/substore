@@ -83,7 +83,7 @@ function operator(proxies) {
     insertIndex,
     0,
     Object.assign({}, proxies[0], {
-      server: "traffic-in-aaa.811920.xyz",
+      server: "traffic-in-03.811920.xyz",
       port: 50012,
       name: "🇸🇬 SG 苯巴比妥钠 0.01x 广州移动",
     })
